@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Love Page ❤️</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #ffe6f2; /* Light pink background */
+            color: #d5006d; /* Darker pink text */
+        }
+        .hidden { display: none; }
+        .content { display: none; }
+        h1 { color: #ff1a75; } /* Bright pink header */
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff66b2; /* Button color */
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff1a75; /* Darker button on hover */
+        }
+    </style>
+</head>
+<body>Eim tim thay trang nay gou neeeeeeeee
+    <h1>Ank iu eim gac gac nhiuuuuuuuuu</h1>
+    <div id="login">
+        <p>Nhap mk iiiiiiiiii:</p>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+
+    <div id="content" class="content">
+        <h2>woaaaaaaaa eiu doi woooooooooooo!!!!!! 🎉</h2>
+        <p>You are my everything! ❤️ I love you forever! 💖</p>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const correctPassword = 'bplovesttforever'; // Set your password here
+            if (password === correctPassword) {
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } else {
+                alert('Incorrect password! Try again. 💕');
+            }
+        }
+    </script>
+</body>
+</html>
